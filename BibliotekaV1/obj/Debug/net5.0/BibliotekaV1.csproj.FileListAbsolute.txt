@@ -1,0 +1,5 @@
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.csproj.AssemblyReference.cache
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.AssemblyInfoInputs.cache
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.AssemblyInfo.cs
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.csproj.CoreCompileInputs.cache

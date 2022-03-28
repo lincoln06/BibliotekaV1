@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xwX+LNK1LILFMCKL90W3ddpJH40M35AF4ZdfxfBd7eSPQiZwZR+dalz3yczhrpu2v//4ezdrtT+7UMGkYsLjEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\macie\\source\\repos\\BibliotekaV1\\BibliotekaV1\\BibliotekaV1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
