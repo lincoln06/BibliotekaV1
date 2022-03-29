@@ -7,10 +7,17 @@ namespace BibliotekaV1
 {
     class Program
     {
-        
-        static void Main(string[] args)
+        static List<Book> listOfBooks = new List<Book>();
+        static void Main()
         {
-            List < Book > listOfBooks = new List<Book>();
+            Console.WriteLine("Co chcesz zrobić?");
+            Console.WriteLine("1\tDodaj książkę");
+            Console.WriteLine("2\tWypożycz książkę");
+            Console.WriteLine("3\tWyświetl książki");
+            Console.WriteLine("4\tPodaj info o wypożyczeniu");
+            Console.WriteLine("5\tObczaj książkę");
+            int choose = int.Parse(Console.ReadLine());
+            Choose(choose);
 
         }
         static void Choose(int choose)
@@ -25,27 +32,44 @@ namespace BibliotekaV1
                     RentBook();
                     break;
                 case 3:
-                    ViewInfo();
+                    ViewListOfBooks();
                     break;
                 case 4:
+                    ViewInfo();
+                    break;
+                case 5:
                     ViewBook();
+                    break;
             }
 
         }
-        static Book AddBook()
+        static void AddBook()
         {
+            
             Console.WriteLine("Podaj tytuł");
             string title = Console.ReadLine();
             Console.WriteLine("Podaj imię autora");
             string authorFirstName = Console.ReadLine();
-            Console.WriteLine("Podaj tytuł");
-            string title = Console.ReadLine();
+            Console.WriteLine("Podaj nazwisko autora");
+            string authorLastName = Console.ReadLine();
             Console.WriteLine("Podaj rok wydania");
             int year = int.Parse(Console.ReadLine());
             
+            listOfBooks.Add(Book.AddNewBook(authorFirstName, authorLastName, title, year));
+            
         }
-        static Book VievBook() { }
-        static Rent RentBook() { }
+        static void ViewBook() { }
+        static void RentBook() { }
+        static void ViewInfo() { }
+        static void ViewListOfBooks() 
+        {
+            Console.Clear();
+            foreach(Book book in listOfBooks)
+            {
+                Console.WriteLine("Imię autora\tNazwisko autora\tTytuł\tRok");
+                Console.WriteLine($"{book.FirstName}\t{book.LastName}\t{book.Title}\t{book.Year}");
+            }
+        }
         
     }
 }

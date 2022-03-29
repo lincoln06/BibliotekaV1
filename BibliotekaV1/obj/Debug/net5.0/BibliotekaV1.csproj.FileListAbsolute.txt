@@ -3,3 +3,15 @@ C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\Bibliotek
 C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.AssemblyInfoInputs.cache
 C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.AssemblyInfo.cs
 C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.csproj.CoreCompileInputs.cache
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\bin\Debug\net5.0\SampleLibrary.dll
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\bin\Debug\net5.0\BibliotekaV1.exe
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\bin\Debug\net5.0\BibliotekaV1.deps.json
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\bin\Debug\net5.0\BibliotekaV1.runtimeconfig.json
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\bin\Debug\net5.0\BibliotekaV1.runtimeconfig.dev.json
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\bin\Debug\net5.0\BibliotekaV1.dll
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\bin\Debug\net5.0\ref\BibliotekaV1.dll
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\bin\Debug\net5.0\BibliotekaV1.pdb
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.dll
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\ref\BibliotekaV1.dll
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.pdb
+C:\Users\macie\source\repos\BibliotekaV1\BibliotekaV1\obj\Debug\net5.0\BibliotekaV1.genruntimeconfig.cache
