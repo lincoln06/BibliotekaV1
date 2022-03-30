@@ -7,14 +7,8 @@
 
   <ItemGroup>
     <Reference Include="SampleLibrary">
-      <HintPath>..\..\SampleLibrary\SampleLibrary\bin\Release\net5.0\SampleLibrary.dll</HintPath>
+      <HintPath>..\..\BibliotekaV1\BibliotekaV1\SampleLibrary.dll</HintPath>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="SampleLibrary.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
