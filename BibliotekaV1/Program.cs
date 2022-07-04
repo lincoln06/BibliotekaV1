@@ -117,6 +117,23 @@ namespace BibliotekaV1
             //FOR DEBUG
             Console.WriteLine(listOfBooks.Count);
         }
+        static void GiveBookBack()
+        {
+            Console.WriteLine($"L.p.\t Imię i nazwisko\tTytuł\tAutor\t\tRok\tData wypoż.\tData oddania\n");
+            foreach (Rent rent in listOfRentedBooks)
+            {
+                Console.WriteLine($"{listOfRentedBooks.IndexOf(rent) + 1}\t{rent.OwnerFirstName} {rent.OwnerLastName}\t{rent.Title}\t{rent.FirstName} {rent.LastName}\t{rent.Year}\t{rent.WasTaken}\t{rent.MustGiveBack}");
+            }
+            Console.WriteLine("Którą książkę chcesz oddać?");
+            int number = int.Parse(Console.ReadLine());
+            number--;
+            if (number < 0 || number > listOfBooks.Count + 1)
+            {
+                Console.Clear();
+                GiveBookBack();
+            }
+            listOfBooks.Add(listOfRentedBooks[number].FirstName))
+        }
         
     }
 }
